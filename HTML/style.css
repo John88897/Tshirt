@@ -1,0 +1,17 @@
+/* element*/
+hi {
+    background-color: blue;
+    color: aqua;
+}
+/*calss*/
+.hi {
+    color:aquamarine;
+}
+/*id*/
+#hi{
+    color: bisque;
+}
+/* universal*/
+*{
+    color: blueviolet;
+}

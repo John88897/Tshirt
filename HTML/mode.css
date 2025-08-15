@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif; /*makes the text look cleaner */
+    background-color: lightgray; /* light gray background for the whole page */
+    display: flex; /* centers the card horzontally and vertically */
+    justify-content: center; /*centers horizontally */
+    align-items: center; /* centers vertically */
+    height: 100vh; /*full height of the screen */
+}
+
+.card {
+    background-color:white; /* white background for the card */
+    padding: 15px; /* space inside the card */
+    border: 1px solid #ddd; /* light gray border around card */
+    border-radius: 10px; /* rouded corners */
+    text-align: center; /* centers all text and the button */
+    width: 220px; /* fixes card width */
+    box-shadow: 0 4px 6px rgba(red, green, blue, alpha);/*ligt shadow for 3D effect*/
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;/*slightly rounded corners for the image*/
+}
+
+.card h3 {
+    color: darkgray; /*dark gray text*/
+    margin: 10px 0; /*space above and below the price*/
+}
+
+.card button {
+    background-color: green; /* Green button */
+    color: white; /* White text */
+    border: none;  /* No border lines */
+    padding: 8px 16px;  /* Space inside the button */
+    border-radius: 5px;  /*Rounded button corners */
+    cursor: pointer;  /* mouse pointer changes on hover */
+    font-size: 14px;  /* slightly smaller text */
+}
+
+.card button:hover {
+    background-color: darkgreen;   /* darker green when mouse is on it  */
+}
